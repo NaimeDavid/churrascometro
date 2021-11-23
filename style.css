@@ -1,0 +1,61 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../projetoChurrasco/assets/festa-de-churrasco-verão-tela-fundo-repetição-do-vetor-estilo-linocagem-contínua-design-pincel-ferramentas-cozinha-comida-203598813.jpg");
+  
+}
+
+.centralizarImg{
+    /* div só pra centralizar a img */
+    display:         flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    max-width: 500px;
+    margin: auto ;   
+    border: 1px solid rgb(241, 241, 240);
+    background-color: rgb(228, 229, 230);
+    padding: 20px;
+    border-radius: 10px;  
+    font-size: 14px;
+   
+}
+
+h1{
+    text-align: center;
+    font-weight: 100;
+}
+
+input, button{
+    display: block;   
+    margin: auto;
+    padding: 10px;
+   margin-bottom: 10px;   
+ width: 80%;  
+    box-sizing: border-box;
+ 
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px; 
+    border:none;  
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 30%;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+       max-width: max-content;
+       font-size: 12px;
+    }
+    *{
+        overflow: hidden;
+    }
+}
